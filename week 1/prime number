@@ -1,0 +1,13 @@
+a = int(input("enter the starting interval value"))
+b = int(input("enter the ending interval value"))
+
+for num in range(a,b) :
+    if num > 1 :
+        is_prime = True
+        for i in range (2,num-1) :
+            if num%i == 0:
+                is_prime = False
+                break
+        if is_prime:
+            print(num , " ")
+
