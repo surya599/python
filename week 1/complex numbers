@@ -1,0 +1,8 @@
+c1 = complex(input("enter the first complex number (a+bj format)"))
+c2 = complex(input("enter the second complex number (a+bj format)"))
+
+product = c1 * c2
+sum = c1 + c2
+
+print("the sum of two complex numbers is",sum)
+print("the product of two complex numbers is" , product)
