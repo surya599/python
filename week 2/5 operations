@@ -1,0 +1,11 @@
+mylist = [45,31,27,89,4]
+mylist.append(90)
+print(mylist)
+mylist.sort()
+print(mylist)
+mylist.pop()
+print(mylist)
+mylist.insert(0,87)
+print(mylist)
+mylist.reverse()
+print(mylist)
