@@ -1,0 +1,17 @@
+def calculator(a,b):
+    sum = a+b
+    diff = a-b
+    product = a*b
+    div = a/b
+    return sum,diff,product,div
+
+x = 32
+y = 8
+
+sum,diff,prod,div = calculator(x,y)
+print("sum = ",sum)
+print("difference = ", diff)
+print("product = " , prod)
+print("division = ", div)
+
+
