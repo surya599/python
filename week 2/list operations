@@ -1,0 +1,11 @@
+ls1 = [45,67,23,1,90]
+
+ls1.append(60)
+
+print(ls1)
+
+ls1.insert(3,444)
+print(ls1)
+
+ls2 = ls1[2:5]
+print(ls2)
