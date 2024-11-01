@@ -1,0 +1,6 @@
+def greet(name = "guest",age = 18):
+    print("hello", name , "you are" , age,"years old")
+
+greet("alice",20)
+greet("bob")
+greet()
