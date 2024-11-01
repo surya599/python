@@ -1,0 +1,6 @@
+name = input("enter a name")
+length = 0
+for char in name :
+    length = length+1
+
+print("the length of the string is", length)
