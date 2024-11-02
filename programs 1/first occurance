@@ -1,0 +1,6 @@
+a = [51,62,34,1,54,76,62,45]
+b = int(input("enter the number to be removed"))
+
+if b in a:
+    a.remove(b)
+print(a)
