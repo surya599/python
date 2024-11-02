@@ -1,0 +1,9 @@
+def vowelcount(s):
+    vowels = "aeiouAEIOU"
+    return sum(map(s.lower().count,vowels))
+
+
+
+str = input("enter a word")
+count = vowelcount(str)
+print("the number of vowels in the word is :" , count)
