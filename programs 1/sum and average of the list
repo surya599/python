@@ -1,0 +1,7 @@
+list = [445,65,47,13,14]
+
+tot = sum(list)
+
+avg = tot/len(list)
+
+print("the sum of numbers in the list is" , tot,"the average of numbers in the list is ", avg)
