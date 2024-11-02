@@ -1,0 +1,6 @@
+member1 = ("kumar",20,"gandhi nagar","tanuku")
+member2 = ("varun",19,"ks nagar","bhimavaram")
+
+concat = member1+member2
+
+print("the concatenated tuple is" , concat)
