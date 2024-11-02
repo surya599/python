@@ -1,0 +1,13 @@
+a = [34,55,78,99,92]
+b = []
+c = []
+for i in range(0,len(a)) :
+    if a[i]%2 == 0 :
+        b.append(a[i])
+    elif a[i]%2 != 0:
+        c.append(a[i])
+
+
+print("the even numbers in the list are",b)
+print("the odd numbers in the list are",c)
+
