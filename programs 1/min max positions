@@ -1,0 +1,11 @@
+ls = [41,35,78,69,99,14]
+j = 0
+k = 0
+for i in range (0,len(ls)) :
+    if(ls[i] < ls[k]) :
+        k = i
+    if(ls[i] > ls[j] ) :
+        j = i
+    
+print("the minimum and maximum positions of the list are", k+1,j+1)
+    
