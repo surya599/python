@@ -1,0 +1,9 @@
+list1 = ["M", "na", "i", "Abhi"] 
+list2 = ["y", "me", "s", "Ram"]
+ls3 = []
+
+for i in range (0,len(list1)) :
+    a = list1[i] + list2[i]
+    ls3.append(a)
+
+print("the concatinated list is ",ls3)
